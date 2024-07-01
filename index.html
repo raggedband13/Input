@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Моя работа</title>
+</head>
+<body>
+    <div style="display: flex;">
+        <img src="img/img.png">
+        <div class="col_6">
+            <h1>Онлайн-запись</h1>
+            <form>
+                <div style="display: flex; margin-left: -15px;">
+                    <div class="col_6">
+                        <label>
+                            <span>Введите Ваше имя</span>
+                            <div>
+                                <input class="text" type="text" placeholder="Петр">
+                            </div>
+                        </label>
+                    </div>
+                    <div class="col_6">
+                        <label>
+                            <span>Введите Ваш Email</span>
+                            <div>
+                                <input class="text" type="text" placeholder="info@mail.ru" required="">
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div style="display: flex; margin-left: -15px;">
+                    <div class="col_6">
+                        <label>
+                            <span>Выберите дату занятия</span>
+                            <div>
+                                <input class="text" type="date" required="">
+                            </div>
+                        </label>
+                    </div>
+                    <div class="col_6">
+                        <label>
+                            <span>Введите Ваш Email</span>
+                            <div>
+                                <input class="text" type="time" required="">
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="background_2">
+                    <p class="txt_1">Если у Вас есть задачи, которые Вы хотите порешать на занятии, загрузите их сюда</p>
+                    <input class="file" type="file">
+                </div>
+                <div>
+                    <span>В какой программе Вам удобно заниматься?</span>
+                    <div style="display: flex;  margin-left: -15px;">
+                        <div class="col_5">
+                            <label>
+                                <input class="checkbox" type="checkbox" checked>
+                                Zoom
+                            </label>
+                        </div>
+                        <div class="col_5">
+                            <label>
+                                <input class="checkbox" type="checkbox">
+                                Discord
+                            </label>
+                        </div>
+                        <div class="col_5">
+                            <label>
+                                <input class="checkbox" type="checkbox">
+                                Meet
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span>Какую программу Вы хотите освоить?</span>
+                    <div style="display: flex;  margin-left: -15px;">
+                        <div class="col_5">
+                            <label>
+                                <input class="checkbox" type="radio" name="radio" id="radio1" checked>
+                                JavaScript
+                            </label>
+                        </div>
+                        <div class="col_5">
+                            <label>
+                                <input class="checkbox" type="radio" name="radio" id="radio2">
+                                HTML и CSS
+                            </label>
+                        </div>
+                        <div class="col_5">
+                            <label>
+                                <input class="checkbox" type="radio" name="radio" id="radio3">
+                                PHP
+                            </label>
+                        </div>
+                        <div class="col_5">
+                            <label>
+                                <input class="checkbox" type="radio" name="radio" id="radio4">
+                                SQL
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label>
+                        <span>Выберите город</span>
+                        <div>
+                            <select>
+                                <option>Выбрать город</option>
+                                <option>Москва</option>
+                                <option>Санкт-Петербург</option>
+                                <option>Сочи</option>
+                            </select>
+                        </div>
+                    </label>
+                </div>
+                <button>Записаться на занятие</button>
+            </form> 
+        </div>
+    </div>
+</body>
+</html>
